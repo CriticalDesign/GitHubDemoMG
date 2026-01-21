@@ -8,7 +8,7 @@ namespace GitHubDemoMG
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        private float speed;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
